@@ -1,5 +1,13 @@
-import "@/styles/globals.css";
+import '../styles/globals.css';
+import Navbar from '../components/Nav';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Navbar />
+      <main className="pt-20 px-4 max-w-6xl mx-auto">
+        <Component {...pageProps} />
+      </main>
+    </>
+  );
 }
