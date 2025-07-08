@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white shadow z-50 px-6 py-4 flex justify-between items-center">
-      <h1 className="font-bold text-xl text-blue-600">MyPortfolio</h1>
+      <h1 className="font-bold text-xl text-blue-600">Paul Gary L Oca</h1>
 
       {/* Hamburger button for small screens */}
       <button onClick={toggleMenu} className="md:hidden text-2xl">
