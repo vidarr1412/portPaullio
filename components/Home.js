@@ -28,6 +28,11 @@ export default function Home() {
           <FaJs />
           <FaReact />
           <FaNodeJs />
+           <FaHtml5 />
+          <FaCss3Alt />
+          <FaJs />
+          <FaReact />
+          <FaNodeJs />
         </div>
 
         <p className="mt-6 text-gray-500">
