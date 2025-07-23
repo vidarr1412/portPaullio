@@ -1,7 +1,7 @@
 export default function Experience() {
   return (
-    <div className="flex flex-col items-center justify-center h-full text-center px-4">
-      <h2 className="text-3xl font-bold mb-6">Experience</h2>
+    <div className="flex flex-col items-center justify-center h-full text-center px-4 mt-20">
+      <h2 className="text-3xl font-bold mb-6 -mt-40">Experience</h2>
 
       <div className="space-y-6 max-w-lg">
         <div className="border p-4 rounded shadow">
